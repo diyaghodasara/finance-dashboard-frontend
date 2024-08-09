@@ -1,9 +1,9 @@
-import Login from './widgets/Login';
+import RoutingController from "./utils/routes/RoutingController";
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <RoutingController />
     </div>
   );
 }
